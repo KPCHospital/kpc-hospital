@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 not(.must-be-serif) {
+	font-family: 'Noto Sans Khmer' !important;
+}
 
 @layer base {
     :root {
